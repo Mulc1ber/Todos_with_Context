@@ -1,0 +1,5 @@
+.wrapPanel {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
