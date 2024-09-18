@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
 import { useState, useRef, useEffect } from 'react';
 import { useRequestUpdateTodo } from '../../../../Hooks';
-import { Input, Button } from '../../../../Components/';
+import { Input } from '../../../Input/Input';
+import { Button } from '../../../Button/Button';
 import { TodoContext } from '../../../../context';
 import styles from './Todo.module.css';
 

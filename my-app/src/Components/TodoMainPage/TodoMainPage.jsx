@@ -1,5 +1,8 @@
 import React from 'react';
-import { AddTodo, Search, Sort, TodoList } from '../../Components/';
+import { AddTodo } from '../AddTodo/AddTodo';
+import { Search } from '../Search/Search';
+import { Sort } from '../Sort/Sort';
+import { TodoList } from '../TodoList/TodoList';
 import styles from './TodoMainPage.module.css';
 
 export const TodoMainPage = () => {
